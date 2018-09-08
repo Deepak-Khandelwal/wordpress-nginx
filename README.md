@@ -16,7 +16,9 @@ Step -2 => Edit start.sh file
                 WORDPRESS_PASSWORD="password"
                 
                 
- Step -3=> Edit docker-comversion: "3"
+ Step -3=> Edit docker-compose.yml file.
+                
+                version: "3"
                 services:
                      web:
                       build: .
