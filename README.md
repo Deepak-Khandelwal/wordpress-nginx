@@ -6,7 +6,7 @@ How it works?
 Step -1 => Download the repo 
 
 
-             https://github.com/Deepak-Khandelwal/wordpress-nginx.git
+            git clone https://github.com/Deepak-Khandelwal/wordpress-nginx.git
 
 Step -2 => Edit start.sh file
              
