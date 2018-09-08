@@ -38,12 +38,12 @@ Step -2 => Edit start.sh file
                       ports:
                         - "3306:3306"pose.yml file
   
-    Step -4=> Run the compose file.          
+  Step -4=> Run the compose file.          
                   
                    docker-compose up
     
-    Step -6=> Check on the browser with your host machine ip.
-    
-                                                      THANK-YOU
+  Step -6=> Check on the browser with your host machine ip.
+  
+  THANK-YOU
            
            
