@@ -24,8 +24,6 @@ Step -2 => Edit start.sh file
                       build: .
                       ports:
                        - "80:80"
-                      links:
-                       - db
                      db:
                       image: mysql
                       command: --default-authentication-plugin=mysql_native_password
@@ -35,8 +33,6 @@ Step -2 => Edit start.sh file
                         MYSQL_DATABASE: wordpress <same as the start.sh file>
                         MYSQL_USER: wp_user  <same as the start.sh file>
                         MYSQL_PASSWORD: password  <same as the start.sh file>
-                      ports:
-                        - "3306:3306"pose.yml file
   
   Step -4=> Run the compose file.          
                   
